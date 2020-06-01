@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <link rel="stylesheet" href="css/timefollow.css">
+<body>
+    <div class="task-form-container">
+        <form action="" data-new-task-form>
+           <label for="taskName">Task Name: </label>
+            <input 
+            type="text" 
+            id="taskName"
+             class="task-name-input" 
+             data-new-task-name
+             placeholder="Enter task name" required><br><br>
+            <label for="goaltext">Goal Time: </label>
+            <input type="number" 
+            id="goalText" 
+            data-new-task-goal
+            class="goal_input" 
+            placeholder="Enter goal time" required><br>
+            <br>
+            <input type="submit" onclick="add_task()" value="Create!" id="submitTask" class="submitTask"><br>
+        </div>
+            <div class="task-list" data-task-list>
+                <div class="task-name" data-task>
+
+
+                </div>
+            </div>
+
+            <div class="newTaskContainer">
+                
+            </div>
+    <script defer src="scripts/timescript.js"></script>
+</body></html>

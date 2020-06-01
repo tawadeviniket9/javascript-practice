@@ -1,0 +1,38 @@
+.task-form-container{
+    background: #90caf9 ;
+    padding: 20px;
+}
+
+
+
+.task-list{
+    width: fit-content;
+    overflow: hidden;
+    background: #5c6bc0;
+    margin : 20px auto;
+    padding: 20px;
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+
+}
+
+
+.task-name{
+  margin : 20px auto;
+  padding: 20px;
+  background: tomato;
+  width: fit-content;
+  height: 100px;
+  font-weight: 500;
+  padding: 4;
+  color:white;
+  font-family: sans-serif;
+  line-height: 2em;
+  border-radius: 7%;
+}
+
+

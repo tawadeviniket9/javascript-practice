@@ -1,0 +1,37 @@
+<html><head>
+    <title>
+
+    </title>
+    <link rel="stylesheet" href="css/cardlayout.css">
+</head>
+<body>
+    <div class="page-container">
+
+    <div class="task-form-container">
+        <form action="" data-new-task-form>
+            <label for="taskName">Task Name: </label>
+            <input type="text" id="taskName" class="task-name-input" placeholder="Enter task name" required><br><br>
+            <label for="goaltext">Goal Time: </label>
+            <input type="number" id="goalText" class="goal_input" placeholder="Enter goal time" required><br>
+            <br>
+            <input type="submit" onclick="add_task()" value="Create!" id="submitTask" class="submitTask"><br>
+        </form>
+    </div>
+
+    <div class="task-list" data-task-list>
+    </div>
+<template id="task-template">
+    <div class="task-container" data-task>
+        <label class="task-name-label">Task Name:</label>
+        <label class="task-name">Sing</label><br><br>
+        <label class="goal-label">Goal:</label>
+        <label class="goal-name">6</label>
+        <input type="checkbox" class="checkbox" id="task-checkb">
+        <br>
+        
+    </div>
+</template>
+
+</div>
+    <script defer src="scripts/card.js"></script>
+</body></html>
